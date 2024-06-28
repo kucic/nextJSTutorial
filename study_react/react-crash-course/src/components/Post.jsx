@@ -12,8 +12,8 @@ const Post = (props) => {
 }
 
 Post.propTypes = {
-    title: PropTypes.string.isRequired,
-    content: PropTypes.string,
+    author: PropTypes.string.isRequired,
+    body: PropTypes.string,
 }
 
 export default Post;
